@@ -1,3 +1,15 @@
-﻿{
-
+{
+   "firstName": "Luthfi",
+   "lastName": "Siregar",
+   "gender": "male",
+   "age": 19,
+   "address": {
+       "streetAddress": "Perumnas",
+       "city": "Balikpapan",
+       "state": "East Kalimantan"
+   },
+   "courses": [
+       { "code": "CRI2C4", "name": "Konstruksi Perangkat Lunak" },
+       { "code": "CRI2XX", "name": "Nama Mata Kuliah" }
+   ]
 }

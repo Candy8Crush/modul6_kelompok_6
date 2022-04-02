@@ -6,7 +6,7 @@ namespace modul6_kelompok_6
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            DataMahasiswa_1302204013.ReadJson();
         }
     }
 }
