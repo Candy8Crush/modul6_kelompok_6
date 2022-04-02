@@ -1,8 +1,8 @@
 ﻿using System;
 
-public class Class1
+public class DataMahasiswa1302204008
 {
-	public Class1()
+	public DataMahasiswa1302204008()
 	{
 	}
 }
