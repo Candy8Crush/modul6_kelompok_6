@@ -31,6 +31,7 @@ namespace modul6_kelompok_6
             public string address { get; set; }
             public string courses { get; set; }
 
-        }
+        } 
+    }
 
     }
