@@ -36,10 +36,12 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="DataMahasiswa_1302204013.cs" />
+    <Compile Include="TeamMembers_1302204013.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
     <None Include="jurnal6_1_1302204013.json" />
+    <None Include="jurnal6_2_1302204013.json" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>

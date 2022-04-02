@@ -22,13 +22,10 @@ namespace modul6_kelompok_6
             string file = "/Users/luthfi/Desktop/Kuliah/Semester 4/Konstruksi Perangkat Lunak/Modul6/modul6_kelompok_6/modul6_kelompok_6/jurnal6_1_1302204013.json";
 
             string str = File.ReadAllText(file);
-            dynamic data = JsonConvert.DeserializeObject<DataMahasiswa>(file);
 
+            DataMahasiswa dataMahasiswa = JsonSerializer.Deserialize<DataMahasiswa>(str);
 
-
-            Console.WriteLine(data.firstname);
-
-            //Console.WriteLine($"Nama depan {dataMahasiswa.firstName} nama belakang {dataMahasiswa.lastName} gender {dataMahasiswa.gender} beralamat di {dataMahasiswa.address} mengambil matkul {dataMahasiswa.courses}");
+            Console.WriteLine($"Nama depan {dataMahasiswa.firstName} nama belakang {dataMahasiswa.lastName} gender {dataMahasiswa.gender} beralamat di {dataMahasiswa.address} mengambil matkul {dataMahasiswa.courses}");
         }
     }
 }

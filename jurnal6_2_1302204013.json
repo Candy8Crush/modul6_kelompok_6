@@ -1,3 +1,38 @@
 ﻿{
-
+  "members": [
+    {
+      "firstName": "Luthfi",
+      "lastName": "Siregar",
+      "gender": "male",
+      "age": 19,
+      "nim": "1302204013"
+    },
+    {
+      "firstName": "Ryan",
+      "lastName": "Nur Fauzi",
+      "gender": "male",
+      "age": 32,
+      "nim": "5678568567"
+    },
+    {
+      "firstName": "Elia",
+      "lastName": "Angga",
+      "gender": "male",
+      "age": 24,
+      "nim": "456754675"
+    },
+    {
+      "firstName": "Boma",
+      "lastName": "",
+      "gender": "male",
+      "age": 24,
+      "nim": "456754675"
+    },
+    {
+      "firstName": "Christoporus",
+      "lastName": "",
+      "gender": "male",
+      "age": 24,
+      "nim": "456754675"
+    
 }
